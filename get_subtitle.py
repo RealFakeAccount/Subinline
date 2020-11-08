@@ -9,6 +9,8 @@ parser = argparse.ArgumentParser(description="fetch youtube video subtitles", ep
 '''This script intend to fetch the English and Chinese subtitle from specific youtube video. 
 If target video has both manually and auto-generate subtitle, it will  always picks manually created transcripts over automatically created ones.
 If target video's subtitle is disabled, this script will return an error.  
+
+Example: python3 ./get_subtitle.py WAeMt4vDJYk
 ''')
 
 parser.add_argument('videolink', type=str, help="Full youtube video link or video ID.")
