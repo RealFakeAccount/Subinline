@@ -51,11 +51,11 @@ def main():
             print("Chinses subtitle can nither be generated nor translated. Download English subtitle only.")
         else: zh_trans = eng_trans.translate('zh-Hans')
 
-    with open("en_sub.txt", 'w') as f:
+    with open("en_sub.srt", 'w') as f:
         print(convert_to_srt(eng_trans.fetch()), file=f)
 
     if zh_trans:
-        with open("zh_sub.txt", 'w') as f:
+        with open("zh_sub.srt", 'w') as f:
             print(convert_to_srt(zh_trans.fetch()), file=f)
     ...
 

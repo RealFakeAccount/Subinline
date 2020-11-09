@@ -12,10 +12,10 @@ Example:
 python3 ./get_subtitle.py WAeMt4vDJYk
 ```
 
-For `burn_subtitle.py`, provide 3 argument: local path of the video, local path of the English subtitle (srv file), local path of the English subtitle (srv file).
+For `burn_subtitle.py`, provide 3 argument: local path of the video, local path of the English subtitle (srt file), local path of the English subtitle (srv file).
 
 Example: 
 
 ```bash
-python3 burn_subtitle.py November\ Anime\ Youtube\ Video\ Challenge\ \(NATVC\ _\ NOVID\)-WAeMt4vDJYk.mkv --en_sub en_sub.txt --zh_sub zh_sub.txt
+python3 burn_subtitle.py November\ Anime\ Youtube\ Video\ Challenge\ \(NATVC\ _\ NOVID\)-WAeMt4vDJYk.mkv --en_sub en_sub.srt --zh_sub zh_sub.srt
 ```
